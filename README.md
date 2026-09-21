@@ -1,6 +1,6 @@
 # Job Tracker
 
-[![CI](https://github.com/hardikjain2005/Job-Tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/hardikjain2005/Job-Tracker/actions/workflows/ci.yml)
+[![CI](https://github.com/hardikjain2005/Job-tracker-application/actions/workflows/ci.yml/badge.svg)](https://github.com/hardikjain2005/Job-tracker-application/actions/workflows/ci.yml)
 
 A full-stack app for tracking job applications. Register, log in, then add, edit, filter and delete your own applications. Each user only ever sees their own data.
 
