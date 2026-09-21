@@ -14,8 +14,7 @@ if (string.IsNullOrWhiteSpace(jwtKey) || jwtKey.Length < 32)
         "Jwt:Key must be set (at least 32 chars). Locally use: dotnet user-secrets set \"Jwt:Key\" \"<random string>\"; " +
         "elsewhere use the Jwt__Key environment variable.");
 
-builder.Services.AddControllers()
-    .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter()));
+builder.Services.AddControllers();
 
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseSqlite(builder.Configuration.GetConnectionString("Default")));
