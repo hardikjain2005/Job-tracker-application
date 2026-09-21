@@ -485,3 +485,6 @@ $RECYCLE.BIN/
 *.db
 *.db-shm
 *.db-wal
+
+# Personal interview notes (kept local, not published)
+docs/INTERVIEW_NOTES.md
